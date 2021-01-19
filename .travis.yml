@@ -12,5 +12,7 @@ install:
 
 script: pytest
 
+env: CODECOV_TOKEN="533930b3-1af3-4fce-bd55-a2021e7f931c"
+
 after_success:
   - bash <(curl -s https://codecov.io/bash)
