@@ -8,13 +8,9 @@ python:
   - "nightly"
 
 install:
-  - pip install -U tox
+  - pip install -r requirements.txt
 
-after_install:
-  - tox -r ./
-
-script:
-  - tox
+script: pytest
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
