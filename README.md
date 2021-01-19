@@ -1,6 +1,6 @@
 # PyBitty
 
-[![Build Status](https://travis-ci.org/the-forges/pybitty.svg?branch=main)](https://travis-ci.org/the-forges/pybitty) [![codecov](https://codecov.io/gh/the-forges/pybitty/branch/master/graph/badge.svg)](https://codecov.io/gh/the-forges/pybitty)
+[![Build Status](https://travis-ci.com/the-forges/pybitty.svg?branch=main)](https://travis-ci.com/the-forges/pybitty) [![codecov](https://codecov.io/gh/the-forges/pybitty/branch/main/graph/badge.svg)](https://codecov.io/gh/the-forges/pybitty)
 
 PyBitty is a memory unit conversion python module that makes working with multiple sizes and SI/IEC standards straight forward. It is based on unit ecapsulation, immutability, plugability, and testability: the idea that each unit should know how to operate with other valid units idempotently; every unit function returns a new unit or value, instead of changing itself; each unit implements interfaces so that it's easy to plug in new unit types (which also makes testing new unit types straight forward).
 
